@@ -1,0 +1,40 @@
+#título_h1{
+    background-color: bisque;
+    color: darkgreen;
+    font-size: 40px;
+    display: inline-block;
+    width: 1895px;
+    height: 250px;
+    text-align: center;
+    line-height: 230px;
+    margin: 0;
+    border: 2px solid blue;
+    padding: 150px 1895 px;
+    position: relative;
+    top: 1px;
+    left: 1px;
+}
+
+#home{
+    text-align: center;
+    position: relative;
+    left: 700px;
+}
+
+#livros{
+    text-align: center;
+    position: relative;
+    left: 800px;
+}
+
+#videos{
+    text-align: center;
+    position: relative;
+    left: 900px;
+}
+
+#contatos{
+    text-align: center;
+    position: relative;
+    left: 1000px;
+}
