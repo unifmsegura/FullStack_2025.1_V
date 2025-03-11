@@ -26,6 +26,7 @@ nav {
     background-color: lightgray;
     padding: 10px 0;
     border: 2px solid blue;
+    text-align: center;
 }
 
 nav ul {
@@ -35,6 +36,10 @@ nav ul {
     gap: 50px;
     padding: 0;
     margin: 0;
+}
+
+nav ul li {
+    display: inline;
 }
 
 nav ul li a {
@@ -91,6 +96,7 @@ nav ul li a {
 .consulta {
     background-color: yellow;
     border: 2px solid black;
+    padding: 10px;
 }
 
 footer {
@@ -99,4 +105,5 @@ footer {
     font-size: 15px;
     font-family: "Comic Sans MS";
     text-align: center;
+    border: 2px solid black;
 }
