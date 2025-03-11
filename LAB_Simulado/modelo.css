@@ -1,0 +1,12 @@
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: purple;
+    font-size: 40px;
+    color: white;
+    border: 1px solid;
+    padding: 20px;
+    width: 200px;
+}
