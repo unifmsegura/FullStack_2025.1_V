@@ -23,7 +23,7 @@ h1 {
 }
 
 nav {
-    background-color: lightgray;
+    background-color: lightskyblue;
     padding: 10px 0;
     border: 2px solid blue;
 }
@@ -43,12 +43,9 @@ nav ul li a {
     font-size: 20px;
 }
 
-.introducao, .livros, .videos, .contatos, .consulta {
-    margin: 40px;
-    padding: 20px;
-    background-color: white;
-    border-radius: 10px;
-    box-shadow: 2px 2px 10px gray;
+.introducao p {
+    color: purple;
+    font-size: 20pt;
 }
 
 .livros-container {
@@ -60,16 +57,14 @@ nav ul li a {
 .livros-container img {
     width: 200px;
     height: auto;
-    border-radius: 10px;
-    box-shadow: 2px 2px 5px gray;
+    box-shadow: 2px 2px 5px;
 }
 
 .videos iframe {
     width: 45%;
     height: 300px;
     margin: 20px;
-    border-radius: 10px;
-    box-shadow: 2px 2px 5px gray;
+    box-shadow: 2px 2px 5px;
 }
 
 .contatos table {
@@ -80,17 +75,42 @@ nav ul li a {
 }
 
 .contatos th, .contatos td {
-    border: 2px solid black;
+    border: 2px dashed red;
     padding: 10px;
-}
-
-.contatos th {
-    background-color: lightgray;
+    color: red;
 }
 
 .consulta {
     background-color: yellow;
     border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+.consulta table {
+    margin: 0 auto;
+}
+
+.consulta td {
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.consulta a {
+    text-decoration: none;
+    color: blue;
+    font-weight: bold;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
 }
 
 footer {
@@ -99,4 +119,13 @@ footer {
     font-size: 15px;
     font-family: "Comic Sans MS";
     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.footer-images img {
+    width: 50px;
+    height: auto;
 }
