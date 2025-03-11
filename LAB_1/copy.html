@@ -1,67 +1,74 @@
 <!DOCTYPE html>
 <html lang="pt">
-    <head>
-        <title>C++ e Java</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="copy_estilo.css" rel="stylesheet">
-    </head>
-
-    <body>
-        <div id="header">
-            <img src="logo_cpp.png" alt="Logo C++" class="logo">
-            <h1 id="titulo">C++ e Java</h1>
-            <img src="logo_java.png" alt="Logo Java" class="logo">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>C++ e Java</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="logo-cpp.png" alt="Logo C++" class="logo">
+        <h1 id="título_h1">C++ e Java</h1>
+        <img src="logo-java.png" alt="Logo Java" class="logo">
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Livros</a></li>
+            <li><a href="#">Vídeos</a></li>
+            <li><a href="#">Contatos</a></li>
+        </ul>
+    </nav>
+    
+    <section class="introducao">
+        <h2>Introdução</h2>
+        <p>C++ (em português: lê-se "cê mais mais", em inglês lê-se see plus plus) é uma linguagem de programação compilada multi-paradigma...</p>
+        <p>Java é uma linguagem de programação orientada a objetos desenvolvida na década de 90...</p>
+    </section>
+    
+    <section class="livros">
+        <h2>Livros</h2>
+        <div class="livros-container">
+            <img src="livro1.png" alt="Livro 1">
+            <img src="livro2.png" alt="Livro 2">
+            <img src="livro3.png" alt="Livro 3">
         </div>
-        
-        <table id="menu">
+    </section>
+    
+    <section class="videos">
+        <h2>Aprenda a programar com Java e C++ na FEI.</h2>
+        <iframe src="https://www.youtube.com/embed/4MHAOPxcnsQ"></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3652.648556785657!2d-46.581586585019195!3d-23.724241184602274!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce4158ef9c7c05%3A0x776b798985695f52!2sCentro%20Universit%C3%A1rio%20FEI%20-%20Campus%20S%C3%A3o%20Bernardo%20do%20Campo!5e0!3m2!1spt-BR!2sbr!4v1630280666216!5m2!1spt-BR!2sbr"></iframe>
+    </section>
+    
+    <section class="contatos">
+        <h2>Contatos</h2>
+        <table>
             <tr>
-                <td><a href="home.html">Home</a></td> 
-                <td><a href="livros.html">Livros</a></td>
-                <td><a href="videos.html">Vídeos</a></td>
-                <td><a href="contatos.html">Contatos</a></td>
+                <th>Nome</th>
+                <th>Email</th>
+            </tr>
+            <tr>
+                <td>Prof. Dr. Fagner Pinnenel</td>
+                <td>fpinnenel@fei.edu.br</td>
+            </tr>
+            <tr>
+                <td>Prof. Dr. Isaac Jesus da Silva</td>
+                <td>isaacjesus@fei.edu.br</td>
             </tr>
         </table>
-        
-        <div id="conteudo">
-            <h2>Introdução</h2>
-            <p>C++ e Java são linguagens de programação amplamente utilizadas...</p>
-            
-            <h2>Livros</h2>
-            <div class="livros">
-                <img src="livro1.jpg" alt="Livro 1">
-                <img src="livro2.jpg" alt="Livro 2">
-                <img src="livro3.jpg" alt="Livro 3">
-            </div>
-            
-            <h2>Aprenda a programar</h2>
-            <div class="midia">
-                <iframe src="video_fei.mp4"></iframe>
-                <iframe src="mapa_fei.png"></iframe>
-            </div>
-            
-            <h2>Contatos</h2>
-            <table id="contatos">
-                <tr>
-                    <th>Nome</th><th>Email</th>
-                </tr>
-                <tr>
-                    <td>Prof. Dr. Fagner Pimentel</td><td>fpimentel@fei.edu.br</td>
-                </tr>
-                <tr>
-                    <td>Prof. Dr. Isaac Jesus da Silva</td><td>isaacjesus@fei.edu.br</td>
-                </tr>
-            </table>
-        </div>
-
-        <div id="rodape">
-            <p>Sites para consulta:</p>
-            <ul>
-                <li><a href="https://www.w3schools.com/html/">HTML</a></li>
-                <li><a href="https://www.w3schools.com/css/">CSS</a></li>
-                <li><a href="https://www.w3schools.com/js/">JavaScript</a></li>
-            </ul>
-            <p>Desejamos um excelente semestre a todos.</p>
-        </div>
-    </body>
+    </section>
+    
+    <footer>
+        <p>Sites para consulta:</p>
+        <ul>
+            <li><a href="https://www.w3schools.com/html/">HTML</a></li>
+            <li><a href="https://www.w3schools.com/css/">CSS</a></li>
+            <li><a href="https://www.w3schools.com/js/">JavaScript</a></li>
+        </ul>
+        <p>Desejamos um excelente semestre a todos.</p>
+    </footer>
+</body>
 </html>
