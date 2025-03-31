@@ -1,0 +1,17 @@
+body {
+    background-color: royalblue;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    text-align: center;
+}
+
+.jogo {
+    margin-top: 1.5rem;
+}
