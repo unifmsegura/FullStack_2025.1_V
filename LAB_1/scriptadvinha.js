@@ -24,11 +24,14 @@ function verificarNumero() {
     } else if (entradaUsuario > numeroAleatorio) {
         mensagem.innerText = "Tente um número menor!";
         mensagem.className = "mensagem-erro";
+        document.body.style.setProperty("background-color", "red")
     } else if (entradaUsuario < numeroAleatorio) {
         mensagem.innerText = "Tente um número maior!";
         mensagem.className = "mensagem-erro";
+        document.body.style.setProperty("background-color", "red")
     } else {
         mensagem.innerText = `Parabéns! Você acertou em ${tentativas} tentativas!`;
         mensagem.className = "mensagem-sucesso";
+        document.body.style.setProperty("background-color", "purple")
     }
 }

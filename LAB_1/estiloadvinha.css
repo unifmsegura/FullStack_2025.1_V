@@ -38,11 +38,11 @@ button:hover {
 }
 
 .mensagem-erro {
-    color: red;
+    color: white;
     font-weight: bold;
 }
 
 .mensagem-sucesso {
-    color: limegreen;
+    color: white;
     font-weight: bold;
 }
