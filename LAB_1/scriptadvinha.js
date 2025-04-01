@@ -1,4 +1,3 @@
-// Gerar um número aleatório de 0 a 99
 let numeroAleatorio = Math.floor(Math.random() * 100);
 let tentativas = 0;
 

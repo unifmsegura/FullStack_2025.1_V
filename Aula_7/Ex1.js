@@ -51,7 +51,7 @@ ctx.beginPath();
 ctx.lineWidh = 5;
 ctx.fillStyle = 'blue';
 ctx.strokeStyle = 'red';
-ctx.fillRect(0,0,70,70);
+ctx.fillRect(350,0);
 ctx.strokeRect();
 ctx.closePath();
 
