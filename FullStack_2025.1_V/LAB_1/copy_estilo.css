@@ -69,21 +69,24 @@ nav ul li a {
 .contatos table {
     margin: 20px auto;
     border-collapse: collapse;
-    width: 60%;
-    border: 2px dashed red;
+    width: 20%;
+    border: 4px dashed red;
 }
 
 .contatos th, .contatos td {
-    border: 2px dashed red;
+    border: 1px double red;
     padding: 10px;
-    color: red;
+}
+
+.contatos th {
+    color: red
 }
 
 .consulta {
     margin: 20px auto;
     background-color: yellow;
     border: 2px;
-    width: 60%;
+    width: 30%;
     text-align: left;
     border-collapse: collapse;
     justify-content: space-between;

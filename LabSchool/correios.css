@@ -1,0 +1,29 @@
+nav {
+    background-color: white;
+    padding: 10px 0;
+    border: 2px solid white;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li a {
+    color: indigo;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: bisque;
+    border: 2px solid blue;
+    padding: 20px;
+}
