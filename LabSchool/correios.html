@@ -1,35 +1,105 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>C++ e Java</title>
-    <link href="correios.css" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Correio</title>
+  <link rel="stylesheet" href="correios.css">
 </head>
 <body>
-    <nav>
-    <ul>
-        <li><a href="#">Assine</a></li>
-        <li><a href="#">Últimas</a></li>
-        <li><a href="#">Minha Bahia</a></li>
-        <li><a href="#">Salvador</a></li>
-        <li><a href="#">Esportes</a></li>
-        <li><a href="#">Sua Diversão</a></li>
-        <li><a href="#">Brasil & Mundo</a></li>
-        <li><a href="#">Só se vê no Correio</a></li>
-        <li><a href="#">Assinantes</a></li>
-    </ul>
-    </nav>
+  <!-- TOPO -->
+  <header>
+    <div class="top-bar">
+      <div class="menu-left">
+        <button class="btn-assine">Assine</button>
+        <nav>
+          <a href="#">Últimas</a>
+          <a href="#">Minha Bahia</a>
+          <a href="#">Salvador</a>
+          <a href="#">Esportes</a>
+          <a href="#">Sua Diversão</a>
+          <a href="#">Brasil & Mundo</a>
+          <a href="#">Só se vê no Correio</a>
+          <a href="#">Assinantes</a>
+        </nav>
+      </div>
+      <div class="menu-right">
+        <span>14:10 - 15 de Março de 2023</span> |
+        <span>redacao@correio24horas.com.br</span>
+        <div class="redes">
+          <a href="#">Facebook</a>
+          <a href="#">Twitter</a>
+          <a href="#">Instagram</a>
+          <a href="#">Youtube</a>
+          <a href="#">RSS</a>
+        </div>
+      </div>
+    </div>
+    <div class="logo">
+      <img src="imagens/1.png" alt="Correio Logo">
+    </div>
+  </header>
 
-    <header>
-        <img src="Imagens/c++.png" alt="Logo C++" class="logo">
-        <li>14:10 15 de Março de 2023 redacao@correio24horas.com.br</li>
-        <li>Facebook Twitter Instagram Youtube RSS</li>
-    </header>
+  <!-- CONTEÚDO -->
+  <main>
+    <h1 class="destaque">Festival da Cidade terá 15 dias de programação em Salvador</h1>
 
-    <h1>Festival da Cidade terá 15 dias de programação em Salvador</h1>
+    <section class="noticias">
+      <div class="noticia destaque-vermelha">
+        <img src="imagens/2.png" alt="Carro">
+        <h2>Motorista por app é acusado de aplicar golpes em idosos de Salvador</h2>
+        <p>Mais de 10 vítimas já reconheceram o homem, segundo a polícia</p>
+      </div>
+      <div class="noticia">
+        <img src="imagens/3.png" alt="Mariene">
+        <h2>Após polêmica, Mariene vai cantar no Festival da Cidade</h2>
+        <p>Cantora reclamou no Carnaval</p>
+      </div>
+      <div class="noticia">
+        <img src="imagens/4.png" alt="Repórter">
+        <h2>Repórter nega envolvimento em desvios de pix da TV Record</h2>
+        <p>'Sou uma pessoa íntegra'</p>
+      </div>
+      <div class="noticia texto">
+        <p><strong>Veja tudo o que se sabe sobre desvio de pix na Record/TV Itapoan</strong></p>
+        <p><strong>Líderes do PCdoB brigam por próxima vaga de conselheiro do TCM</strong></p>
+      </div>
+    </section>
 
+    <section class="correio-play">
+      <h2>Correio.play</h2>
+      <div class="video">
+        <iframe width="100%" height="400" src="https://www.youtube.com/embed/VIDEO_ID" frameborder="0" allowfullscreen></iframe>
+      </div>
+    </section>
+  </main>
 
-
-
+  <!-- RODAPÉ -->
+  <footer>
+    <div class="rodape-info">
+      <div class="coluna">
+        <p><strong>Correio</strong><br>
+        Rua Aristides Novis, 123, Federação.<br>
+        CEP: 40210-630 - Salvador, Bahia, Brasil.<br>
+        redacao@correio24horas.com.br</p>
+      </div>
+      <div class="coluna">
+        <p>Assinaturas: 71 3480-9140<br>
+        Anuncie: 71 3203-1353<br>
+        Ache Aqui Classificados: 71 3480-9130<br>
+        Redação: 71 3203-1048</p>
+      </div>
+      <div class="coluna">
+        <p><a href="#">Anuncie</a><br>
+        <a href="#">Institucional</a><br>
+        <a href="#">Perguntas Frequentes</a><br>
+        <a href="#">Política de Privacidade</a></p>
+      </div>
+    </div>
+    <div class="logos">
+      <img src="imagens/5.png" alt="Rede Bahia">
+      <img src="imagens/6.png" alt="Convergence Works">
+    </div>
+  </footer>
 </body>
+</html>
