@@ -18,14 +18,29 @@ h1 {
     color: darkgreen;
 }
 
-.logo {
+.logo{
     width: 100px;
+}
+
+.logo-1 {
+    width: 100px;
+    height: auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.logo-2 {
+    width: 80px;
+    height: auto;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
 }
 
 nav {
     background-color: lightskyblue;
     padding: 10px 0;
-    border: 2px solid blue;
 }
 
 nav ul {
@@ -74,7 +89,7 @@ nav ul li a {
 }
 
 .contatos th, .contatos td {
-    border: 1px double red;
+    border: 2px double red;
     padding: 10px;
 }
 
@@ -86,7 +101,7 @@ nav ul li a {
     margin: 20px auto;
     background-color: yellow;
     border: 2px;
-    width: 30%;
+    width: 25%;
     text-align: left;
     border-collapse: collapse;
     justify-content: space-between;
@@ -97,6 +112,7 @@ nav ul li a {
     color: red;
     font-weight: bold;
     margin-bottom: 10px;
+    padding-left: 120px;
 }
 
 .footer-content {
@@ -115,6 +131,7 @@ footer {
     align-items: center;
     justify-content: space-between;
     margin-top: 10px;
+    white-space: pre-line;
 }
 
 .source {
@@ -126,4 +143,8 @@ footer {
 .footer-images img {
     width: 50px;
     height: auto;
+    display: flex;
+    align-items: space-evenly;
+    justify-content: space-evenly;
 }
+
