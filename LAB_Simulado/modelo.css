@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: white;
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+
+.top-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+}
+
+.purple-rectangle {
+    background-color: purple;
+    width: 250px; /* Mesmo tamanho das outras imagens */
+    height: 250px; /* Mesmo tamanho das outras imagens */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    padding: 10px;
+}
+
+.banner {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.banner img {
+    width: 250px;
+    height: 250px;
+}
+
+nav {
+    margin: 10px 0;
+}
+
+nav a {
+    color: blue;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.logo {
+    margin-top: 20px;
+    width: 400px; /* Ajuste o tamanho conforme necessário */
+    height: auto;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: flex-start;
+    margin: 20px;
+}
+
+.group-photo {
+    width: 350px;
+    height: auto;
+}
+
+.menu-image {
+    width: 200px; /* Ajuste o tamanho conforme necessário */
+    height: auto;
+}
+
+.updated {
+    font-size: 12px;
+    color: gray;
+}
+
+.lyrics {
+    font-style: italic;
+    font-size: 14px;
+}
+
+.lyrics span {
+    text-decoration: underline;
+}
+
+footer {
+    margin-top: 20px;
+    font-size: 12px;
+}

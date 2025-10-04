@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo de Adivinhação</title>
+    <link href="estiloadvinha.css" rel="stylesheet">
+    <script src="scriptadvinha.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Jogo de Adivinhação</h1>
+        <p>Tente adivinhar o número entre 0 e 99</p>
+        
+        <div class="jogo">
+            <input type="number" id="advinhe" min="0" max="99" placeholder="Digite um número">
+            <button id="botao" onclick="verificarNumero()">Adivinhar</button>
+            <p id="mensagem"></p>
+            <p id="tentativa">Tentativas: <span id="contador">0</span></p>
+        </div>
+    </div>
+</body>
+</html>

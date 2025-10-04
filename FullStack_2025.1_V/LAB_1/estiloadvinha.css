@@ -1,0 +1,48 @@
+body {
+    background-color: purple;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.container {
+    text-align: center;
+}
+
+.jogo {
+    margin-top: 1.5rem;
+}
+
+input {
+    padding: 10px;
+    font-size: 16px;
+    text-align: center;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: lightgray;
+}
+
+.mensagem-erro {
+    color: white;
+    font-weight: bold;
+}
+
+.mensagem-sucesso {
+    color: white;
+    font-weight: bold;
+}

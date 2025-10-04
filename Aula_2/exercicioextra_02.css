@@ -1,0 +1,20 @@
+p{
+    color: green;
+    font-size: 18pt;
+}
+
+#p1{
+    color: orange;
+}
+
+.tag_salmao{
+    color: salmon ;
+}
+
+div p{
+    color:aqua;
+}
+
+.tag_salmao:hover{
+    background-color: cyan;
+}

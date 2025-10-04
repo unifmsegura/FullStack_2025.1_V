@@ -1,0 +1,150 @@
+body {
+    background-color: #dcdcdc;
+    text-align: center;
+    font-family: "Sans-serif";
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: bisque;
+    border: 2px solid blue;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 40px;
+    color: darkgreen;
+}
+
+.logo{
+    width: 100px;
+}
+
+.logo-1 {
+    width: 100px;
+    height: auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.logo-2 {
+    width: 80px;
+    height: auto;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+nav {
+    background-color: lightskyblue;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li a {
+    color: indigo;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.introducao p {
+    color: purple;
+    font-size: 20pt;
+}
+
+.livros-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.livros-container img {
+    width: 350px;
+    box-shadow: 2px 2px 5px;
+}
+
+.videos iframe {
+    width: 30%;
+    height: 500px;
+    margin: 20px;
+    justify-content: space-between;
+    box-shadow: 2px 2px 5px;
+}
+
+.contatos table {
+    margin: 20px auto;
+    border-collapse: collapse;
+    width: 20%;
+    border: 4px dashed red;
+}
+
+.contatos th, .contatos td {
+    border: 2px double red;
+    padding: 10px;
+}
+
+.contatos th {
+    color: red
+}
+
+.consulta {
+    margin: 20px auto;
+    background-color: yellow;
+    border: 2px;
+    width: 25%;
+    text-align: left;
+    border-collapse: collapse;
+    justify-content: space-between;
+}
+
+.consulta a {
+    text-decoration: none;
+    color: red;
+    font-weight: bold;
+    margin-bottom: 10px;
+    padding-left: 120px;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+footer {
+    background-color: bisque;
+    padding: 20px;
+    font-size: 15px;
+    font-family: "Comic Sans MS";
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    white-space: pre-line;
+}
+
+.source {
+    font-size: 15px;
+    margin-top: 50px;
+    padding-right: 500px;
+}
+
+.footer-images img {
+    width: 50px;
+    height: auto;
+    display: flex;
+    align-items: space-evenly;
+    justify-content: space-evenly;
+}
+

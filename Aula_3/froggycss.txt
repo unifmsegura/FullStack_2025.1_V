@@ -1,0 +1,26 @@
+24- 
+flex-flow: wrap-reverse;
+flex-direction: column-reverse;
+align-content: space-between;
+justify-content: center;
+
+23-
+flex-direction: column-reverse;
+align-content: center;
+
+20- 
+flex-wrap: wrap;
+flex-direction: column;
+
+17-
+order: 2;
+align-self: flex-end;
+
+13-
+flex-direction: row-reverse;
+justify-content: center;
+align-items: flex-end;
+
+10-
+flex-direction: row-reverse;
+justify-content: flex-end;

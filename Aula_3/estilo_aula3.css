@@ -1,0 +1,41 @@
+.dotted{border: 5px dotted blue;}
+.dashed{border: 5px dashed red;}
+.solid{border: 5px solid green;}
+.radius_10{border-radius: 10px}
+.radius_20{border-radius: 20px}
+.shadow{box-shadow: 5px 5px gray;}
+.margin{margin: 10px;}
+.padding{padding: 10px;}
+.width_200{width: 200px;}
+.display_inline{display: inline;}
+.display_block{display: block;}
+
+#div_1{
+    background-color: chocolate;
+    display: inline;
+    border: 2px solid black;
+    position: relative;
+    top: 100px;
+    left: 100px;
+}
+
+#div_2{
+    background-color: chocolate;
+    display: inline;
+    border: 2px solid black;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    z-index: -1;
+}
+
+#contato{
+    background-color: greenyellow;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+}
+
+#contato:hover{
+    background-color: aqua;
+}

@@ -1,0 +1,163 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+header {
+  border-bottom: 1px solid #ccc;
+}
+
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+  padding: 5px 20px;
+  font-size: 13px;
+}
+
+.menu-left {
+  display: flex;
+  align-items: center;
+}
+
+.menu-left nav a {
+  margin: 0 8px;
+  text-decoration: none;
+  color: #333;
+  font-size: 13px;
+}
+
+.menu-right {
+  text-align: right;
+  font-size: 12px;
+}
+
+.menu-right .redes {
+  margin-top: 3px;
+}
+
+.menu-right .redes a {
+  margin-left: 10px;
+  color: #333;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+.btn-assine {
+  background: #e60023;
+  color: #fff;
+  border: none;
+  padding: 6px 16px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-right: 15px;
+}
+
+.logo {
+  padding: 20px;
+  text-align: left;
+}
+
+.logo img {
+  height: 60px;
+}
+
+.destaque {
+  padding: 20px;
+  color: #d70000;
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.noticias {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+  padding: 0 20px 20px;
+}
+
+.noticia img {
+  width: 100%;
+  display: block;
+}
+
+.noticia h2 {
+  font-size: 15px;
+  margin: 8px 0 4px;
+  font-weight: bold;
+}
+
+.noticia p {
+  font-size: 13px;
+  margin: 0;
+}
+
+.destaque-vermelha {
+  background: #e60023;
+  color: #fff;
+  padding: 10px;
+}
+
+.noticia.texto {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.correio-play {
+  background: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+.correio-play h2 {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.correio-play .video {
+  text-align: center;
+}
+
+.correio-play iframe {
+  width: 90%;
+  max-width: 900px;
+  height: 400px;
+  border: none;
+}
+
+footer {
+  background: #f0f0f0;
+  padding: 20px;
+  font-size: 13px;
+  color: #000;
+}
+
+.rodape-info {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.coluna {
+  margin: 10px;
+  min-width: 200px;
+}
+
+.coluna a {
+  text-decoration: none;
+  color: #000;
+}
+
+.logos {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.logos img {
+  height: 40px;
+}
