@@ -38,10 +38,14 @@ ctx.fillText(txt, x, y);
 ctx.fillStyle = "white";
 ctx.fillRect(0, 0, 300, 300);
 
-quadrado(0, 0, 30, "blue");
-quadrado(270, 0, 30, "red");
+quadrado(0, 0, 50, "blue");
+quadrado(250, 0, 50, "red");
 quadrado(0, 270, 30, "yellow");
+quadrado(0, 240, 30, "yellow");
+quadrado(30, 270, 30, "yellow");
 quadrado(270, 270, 30, "black");
+quadrado(240, 270, 30, "black");
+quadrado(270, 240, 30, "black");
 
 linha(0, 0, 150, 150, "blue");
 linha(300, 0, 150, 150, "red");
@@ -49,22 +53,32 @@ linha(300, 0, 150, 150, "red");
 linha(150, 150, 150, 260, "black");
 linha(0, 150, 300, 150, "green");
 
-texto("Canvas", 115, 50);
+texto("Canvas", 120, 50);
 
-quadrado(119, 150, 30, "red");
-quadrado(0, 129, 20, "cyan");
-quadrado(0, 150, 20, "cyan");
-quadrado(280, 140, 20, "cyan");
+quadrado(109, 150, 40, "red");
+quadrado(0, 119, 30, "cyan");
+quadrado(0, 151, 30, "cyan");
+quadrado(275, 132, 17, "cyan");
+quadrado(285, 132, 17, "cyan");
+quadrado(275, 151, 17, "cyan");
+quadrado(285, 151, 17, "cyan");
 
-circulo(150, 135, 10, "cyan", "blue");
 
-circulo(70, 220, 12, "yellow", "green");
-circulo(230, 220, 12, "yellow", "green");
+circulo(150, 115, 15, "blue");
+circulo(150, 115, 14, "cyan");
 
-arco(150, 150, 30, Math.PI, 0, "green")
-arco(150, 150, 50, Math.PI, 0, "green");
+circulo(70, 220, 15, "green");
+circulo(70, 220, 14, "yellow");
+circulo(230, 220, 15, "green");
+circulo(230, 220, 14, "yellow");
+
+arco(150, 150, 60, Math.PI, 0, "green")
+arco(150, 150, 80, 1.75*Math.PI, 0, "green");
+arco(150, 150, 80, 1*Math.PI, 3.93, "green");
+circulo(150, 300, 40, "cyan");
 arco(150, 300, 40, Math.PI, 0, "green");
-arco(108,310,50,1.5*Math.PI,2.5*Math.PI, 0, "green");
+arco(150, 300, 80, 1*Math.PI, 4.7, "green");
+arco(150, 300, 60, 1.5*Math.PI, 0, "green");
 
 // canvas 2
 const canvas2 = document.getElementById("canvas2");
