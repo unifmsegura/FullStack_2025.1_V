@@ -1,4 +1,3 @@
-
 let carro = {
     cor: 'green',
     modelo: 'SUV',
