@@ -15,7 +15,7 @@ app.set('views', path.join(__dirname, 'views')); //informa onde estão os .ejs (
 app.use(express.urlencoded({ extended: true })); //lê o formulário e preenche req.body para POSTs
 
 // rotas explícitas, executa a função
-app.get('/',        (req, res) => res.sendFile(path.join(lab1, 'Projects.html')));
+app.get('/',        (req, res) => res.sendFile(path.join(lab1, 'projects.html')));
 app.get('/login',   (req, res) => res.sendFile(path.join(lab1, 'Login.html')));
 app.get('/cadastra',(req, res) => res.sendFile(path.join(lab1, 'Cadastro.html')));
 
