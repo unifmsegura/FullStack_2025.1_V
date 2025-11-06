@@ -1,6 +1,7 @@
 require ("colors");
 var http = require("http");
 var express = require("express");
+var mongodb = require("mongodb");
 
 var app = express();
 app.use(express.static('./public'))
@@ -10,6 +11,9 @@ server.listen(3000);
 
 console.log("Servidor rodando ...".rainbow);
 
+const MongoClient = mongodb.MongoClient;
+const uri = 'mongodb://localhost:27017';
+const client = new MongoClient(uri, { useNewUrlParser: true });
 
 // Métodos e actions, redireciona
 

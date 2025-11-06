@@ -7,12 +7,12 @@ const app = express();
 // Caminhos base
 const lab1 = path.join(__dirname, 'FullStack_2025.1_V', 'LAB_1');
 
-// Configuração de arquivos estáticos (CSS, imagens, etc.)
+// Configuração de arquivos estáticos 
 app.use(express.static(lab1));
 
 // Configuração do EJS
 app.set('view engine', 'ejs');
-app.set('views', path.join(__dirname, 'FullStack_2025.1_V', 'LAB_1', 'views')); // ou troque por path.join(__dirname, 'FullStack_2025.1_V', 'LAB_1', 'views')
+app.set('views', path.join(__dirname, 'FullStack_2025.1_V', 'LAB_1', 'views')); // ou path.join(__dirname, 'FullStack_2025.1_V', 'LAB_1', 'views')
 app.use(express.urlencoded({ extended: true }));
 
 // Rotas HTML
