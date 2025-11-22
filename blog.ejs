@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Blog</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <div class="center">
+    <!-- Em vez de href usamos um form GET (conforme sua observação) -->
+    <form method="GET" action="/cadastrar_post">
+      <button type="submit">Criar Post</button>
+    </form>
+
+    <h2>Posts</h2>
+
+    <% if (posts && posts.length === 0) { %>
+      <p>Nenhum post cadastrado.</p>
+    <% } %>
+
+    <% posts.forEach(function(post) { %>
+      <div class="post-box">
+        <strong><%= post.titulo %></strong><br>
+        <em><%= post.resumo %></em><br>
+        <p><%= post.conteudo %></p>
+      </div>
+    <% }) %>
+  </div>
+</body>
+</html>
