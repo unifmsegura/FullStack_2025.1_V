@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <title>Carros Disponíveis</title>
+  <link rel="stylesheet" href="/public/estilo.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Carros Disponíveis</h1>
+    <table>
+      <thead>
+        <tr>
+          <th>Marca</th>
+          <th>Modelo</th>
+          <th>Ano</th>
+          <th>Qtde</th>
+        </tr>
+      </thead>
+      <tbody>
+        <% if (carros.length === 0) { %>
+          <tr><td colspan="4">Nenhum carro cadastrado.</td></tr>
+        <% } %>
+        <% carros.forEach(function(c){ %>
+          <tr>
+            <td><%= c.marca %></td>
+            <td><%= c.modelo %></td>
+            <td><%= c.ano %></td>
+            <td><%= c.qtde_disponivel %></td>
+          </tr>
+        <% }); %>
+      </tbody>
+    </table>
+    <p><a href="/carros/gerencia">Ir para Gerência dos Carros</a></p>
+    <p><a href="/projects.html">Voltar para Projects</a></p>
+  </div>
+</body>
+</html>

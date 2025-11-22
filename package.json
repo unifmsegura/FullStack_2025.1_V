@@ -4,7 +4,8 @@
     "ejs": "^3.1.10",
     "express": "^5.1.0",
     "mongodb": "4.12",
-    "mongoose": "^9.0.0"
+    "mongoose": "^9.0.0",
+    "morgan": "^1.10.1"
   },
   "name": "fullstack_2025.1_v",
   "description": "Repositório das atividades desenvolvidas na disciplina de Full Stack da FEI.",

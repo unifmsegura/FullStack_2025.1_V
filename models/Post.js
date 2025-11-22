@@ -1,4 +1,3 @@
-// models/Post.js - helpers simples usando o driver nativo do mongodb
 module.exports = {
   createPost: async function(db, { titulo, resumo, conteudo }) {
     return db.collection('posts').insertOne({ titulo, resumo, conteudo, createdAt: new Date() });

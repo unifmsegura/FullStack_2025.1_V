@@ -1,0 +1,53 @@
+/* Regras básicas: cor do fundo e centralização */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f0f4f8; /* cor de fundo solicitada */
+}
+
+.container {
+  max-width: 900px;
+  margin: 40px auto; /* centraliza a página */
+  background: #fff;
+  padding: 24px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  text-align: center; /* centraliza conteudo */
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+form {
+  display: inline-block;
+  text-align: left;
+  margin: 8px 0;
+}
+
+input[type="text"], input[type="number"], input[type="password"] {
+  width: 100%;
+  padding: 8px;
+  margin: 6px 0 12px;
+  box-sizing: border-box;
+}
+
+button {
+  padding: 8px 12px;
+  background: #2a7ae2;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button.secondary {
+  background: #6c757d;
+}
