@@ -4,7 +4,7 @@ const { exec } = require('child_process');
 const mongodb = require('mongodb');
 const MongoClient = mongodb.MongoClient;
 
-const uri = 'mongodb+srv://matheusbesegura_db_user:V2FG7HH2212@matheus.vwzcain.mongodb.net/?appName=Matheus'; // ajuste para seu ambiente
+const uri = 'mongodb+srv://matheusbesegura_db_user:V2FG7HH2212@matheus.vwzcain.mongodb.net/?appName=Matheus'; 
 const dbName = 'blogdb';
 let db;
 

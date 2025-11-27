@@ -57,7 +57,7 @@ linha(0, 150, 300, 150, "green");
 texto("Canvas", 115, 50);
 
 // Quadrados vermelhos e cianos
-quadrado(135, 135, 30, "red"); // centro
+quadrado(135, 135, 30, "red"); 
 quadrado(50, 120, 20, "cyan");
 quadrado(230, 120, 20, "cyan");
 
@@ -74,7 +74,7 @@ arco(150, 150, 50, Math.PI, 0, "green");
 arco(150, 300, 40, Math.PI, 0, "cyan");
 arco(150, 300, 60, Math.PI, 0, "green");
 
-    // ===== CANVAS 2 - CASA, ÁRVORES E LAGO =====
+// CANVAS 2 - CASA, ÁRVORES E LAGO
 const canvas2 = document.getElementById("canvas2");
 const ctx2 = canvas2.getContext("2d");
 
@@ -118,7 +118,7 @@ desenharArvore(ctx2, 230, 180);
 
 // CASA
 ctx2.fillStyle = "sienna";
-ctx2.fillRect(120, 150, 60, 60); // corpo da casa
+ctx2.fillRect(120, 150, 60, 60); 
 
 // TELHADO
 ctx2.beginPath();

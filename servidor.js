@@ -4,18 +4,18 @@ const path = require('path');
 const { exec } = require('child_process');
 const app = express();
 
-// Caminhos base
+// caminhos base
 const lab1 = path.join(__dirname, 'FullStack_2025.1_V', 'LAB_1');
 
-// Configuração de arquivos estáticos 
+// configuração de arquivos estáticos 
 app.use(express.static(lab1));
 
-// Configuração do EJS
+// configuração do EJS
 app.set('view engine', 'ejs');
-app.set('views', path.join(__dirname, 'FullStack_2025.1_V', 'LAB_1', 'views')); // ou path.join(__dirname, 'FullStack_2025.1_V', 'LAB_1', 'views')
+app.set('views', path.join(__dirname, 'FullStack_2025.1_V', 'LAB_1', 'views')); 
 app.use(express.urlencoded({ extended: true }));
 
-// Rotas HTML
+// rotas HTML
 app.get('/', (req, res) => res.sendFile(path.join(lab1, 'projects.html')));
 app.get('/login', (req, res) => res.sendFile(path.join(lab1, 'Login.html')));
 app.get('/cadastra', (req, res) => res.sendFile(path.join(lab1, 'Cadastro.html')));
@@ -24,7 +24,7 @@ app.get('/index_Aula_2.html', (req, res) => res.sendFile(path.join(lab1, 'index_
 // "Banco de dados" em memória
 const users = [];
 
-// Rotas POST
+// rotas POST
 app.post('/register', (req, res) => {
   const { username, password } = req.body;
   users.push({ username, password });
@@ -45,7 +45,7 @@ app.post('/auth', (req, res) => {
   });
 });
 
-// Inicialização do servidor
+// inicialização do servidor
 const PORT = 80;
 app.listen(PORT, '0.0.0.0', () => {
   console.log(`Servidor rodando: http://localhost:${PORT}/index_Aula_2.html`);

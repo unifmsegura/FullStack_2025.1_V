@@ -15,7 +15,7 @@ const MongoClient = mongodb.MongoClient;
 const uri = 'mongodb://localhost:27017';
 const client = new MongoClient(uri, { useNewUrlParser: true });
 
-// Métodos e actions, redireciona
+// métodos e actions
 
 app.get("/inicio", function(requisicao, resposta){
     resposta.redirect("Aula_1/index.html")

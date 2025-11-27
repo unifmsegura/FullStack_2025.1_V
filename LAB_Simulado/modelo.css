@@ -17,8 +17,8 @@ body {
 
 .purple-rectangle {
     background-color: purple;
-    width: 250px; /* Mesmo tamanho das outras imagens */
-    height: 250px; /* Mesmo tamanho das outras imagens */
+    width: 250px; 
+    height: 250px; 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -51,7 +51,7 @@ nav a {
 
 .logo {
     margin-top: 20px;
-    width: 400px; /* Ajuste o tamanho conforme necessário */
+    width: 400px; 
     height: auto;
 }
 
@@ -69,7 +69,7 @@ nav a {
 }
 
 .menu-image {
-    width: 200px; /* Ajuste o tamanho conforme necessário */
+    width: 200px;
     height: auto;
 }
 

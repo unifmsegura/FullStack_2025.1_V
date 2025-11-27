@@ -1,4 +1,3 @@
-/* Reset básico */
 body, h1, h2, h3, p, ul, li, table, th, td {
     margin: 0;
     padding: 0;
@@ -16,7 +15,6 @@ body {
     min-height: 100vh;
 }
 
-/* Menu Superior */
 .top-nav {
     display: flex;
     justify-content: space-between;
@@ -42,7 +40,6 @@ body {
     font-weight: bold;
 }
 
-/* Texto e Imagem no Topo */
 .top-content {
     padding: 20px;
     background-color: white;
@@ -58,9 +55,9 @@ body {
 }
 
 .text-and-image .image-placeholder {
-    width: 150px; /* Largura da imagem */
-    height: 150px; /* Altura da imagem */
-    background-color: #f0f0f0; /* Cor de fundo temporária */
+    width: 150px; 
+    height: 150px; 
+    background-color: #f0f0f0; 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -90,7 +87,7 @@ main {
 
 .sections-container {
     display: flex;
-    justify-content: space-between; /* Distribui as seções em cada extremidade */
+    justify-content: space-between; 
     gap: 20px;
     max-width: 1200px;
     margin: 0 auto;
@@ -103,7 +100,7 @@ main {
 }
 
 .principais {
-    flex: 1.5; /* Mais espaço para PRINCIPAIS LOCAIS */
+    flex: 1.5; 
     justify-content: flex-start;
 }
 
@@ -111,35 +108,35 @@ main {
     display: flex;
     flex-direction: column;
     gap: 20px;
-    flex: 1; /* Ocupa o espaço médio */
+    flex: 1; 
 }
 
 .fale {
-    flex: 1.5; /* Mais espaço para FALE COM A PREFEITURA */
+    flex: 1.5; 
     justify-content: flex-end;
 }
 
 /* Títulos das Seções */
 .principais-title {
-    background-color: orange; /* Cor do título (laranja) */
+    background-color: orange; 
     padding: 10px;
     margin-bottom: 10px;
 }
 
 .secretarias-title {
-    background-color: green; /* Cor do título (verde) */
+    background-color: green; 
     padding: 10px;
     margin-bottom: 10px;
 }
 
 .orgaos-title {
-    background-color: green; /* Cor do título (verde) */
+    background-color: green; 
     padding: 10px;
     margin-bottom: 10px;
 }
 
 .fale-title {
-    background-color: blue; /* Cor do título (azul) */
+    background-color: blue; 
     padding: 10px;
     margin-bottom: 10px;
 }
@@ -147,7 +144,7 @@ main {
 .section h2, .section h3 {
     font-size: 18px;
     font-weight: bold;
-    color: white; /* Texto do título em branco */
+    color: white; 
     margin: 0;
 }
 
@@ -167,7 +164,7 @@ main {
 }
 
 .section ul li::before {
-    content: "➤"; /* Seta antes dos itens */
+    content: "➤";
     margin-right: 5px;
 }
 
@@ -189,11 +186,11 @@ table th {
     font-weight: bold;
 }
 
-/* Espaço para Imagem em PRINCIPAIS LOCAIS */
+/* Imagem em principais locais */
 .principais .image-placeholder {
     margin: 10px 0;
-    background-color: #f0f0f0; /* Cor de fundo temporária */
-    height: 150px; /* Altura temporária */
+    background-color: #f0f0f0; 
+    height: 150px; 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -206,11 +203,11 @@ table th {
 
 /* Rodapé */
 footer {
-    background-color: #005bb5; /* Fundo azul */
+    background-color: #005bb5; 
     padding: 20px;
-    color: white; /* Texto branco */
+    color: white; 
     text-align: center;
-    margin-top: auto; /* Fixa o rodapé no fim da página */
+    margin-top: auto; 
 }
 
 footer p {

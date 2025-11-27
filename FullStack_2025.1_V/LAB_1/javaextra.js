@@ -1,4 +1,4 @@
-// 1 e 2. Cálculo de média ponderada e conceito
+// 1 e 2. cálculo de média ponderada e conceito
 
 function exercicio1_2() {
     let trab = parseFloat(prompt("Nota do Trabalho de Laboratório:"));
@@ -18,7 +18,7 @@ function exercicio1_2() {
 }
 
 
-// 3. Ordenação e comparação de três valores
+// 3. ordenação e comparação de três valores
 
 function exercicio3() {
     let I = parseInt(prompt("Digite o valor de I (1, 2 ou 3):"));
@@ -41,7 +41,7 @@ function exercicio3() {
     }
 }
 
-// 4. Classificação por altura e peso
+// 4. classificação por altura e peso
 
 function exercicio4() {
     let altura = parseFloat(prompt("Digite a altura (m):"));
@@ -66,7 +66,7 @@ function exercicio4() {
 }
 
 
-// 5. Média de duas notas de 6 alunos
+// 5. média de duas notas de 6 alunos
 
 function exercicio5() {
     for (let i = 1; i <= 6; i++) {
@@ -83,7 +83,7 @@ function exercicio5() {
     }
 }
 
-// 6. Área de triângulo (valores válidos)
+// 6. área de triângulo 
 
 function exercicio6() {
     let base = parseFloat(prompt("Digite a base do triângulo:"));
@@ -98,7 +98,7 @@ function exercicio6() {
 }
 
 
-// 7. Vários números - estatísticas
+// 7. vários números - estatísticas
 
 function exercicio7() {
     let numeros = [];
@@ -130,7 +130,7 @@ function exercicio7() {
 }
 
 
-// Escolha do exercício para testar
+// escolha do exercício para testar
 
 let opcao = parseInt(prompt("Digite o número do exercício (1 a 7):"));
     switch (opcao) {
